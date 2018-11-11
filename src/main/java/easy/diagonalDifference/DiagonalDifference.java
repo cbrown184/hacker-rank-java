@@ -1,4 +1,4 @@
-package main.java.easy;
+package main.java.easy.diagonalDifference;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

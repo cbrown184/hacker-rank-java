@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 public class Solution {
 
+  private static final Scanner scanner = new Scanner(System.in);
+
   // Complete the aVeryBigSum function below.
   static long aVeryBigSum(long[] ar) {
     return Arrays.stream(ar).parallel().sum();
   }
-
-  private static final Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
     BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
